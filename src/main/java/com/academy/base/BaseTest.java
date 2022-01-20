@@ -29,7 +29,6 @@ public class BaseTest {
         dc = new DesiredCapabilities();
         dc.setPlatform(Platform.WINDOWS);
         dc.setBrowserName(browser);
-        //System.setProperty("webdriver.chrome.driver", "./chromedriver.exe");
         driver = new ChromeDriver();
         driver.get(baseUrl);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
