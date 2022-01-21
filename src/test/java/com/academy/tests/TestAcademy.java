@@ -25,7 +25,7 @@ public class TestAcademy extends BaseTest {
         //System.out.println(logInPage.radioButtonCheck());
 
         logInPage.continueSignIn();
-        Assert.assertEquals(logInPage.pageAfterSignIn(), "https://rahulshettyacademy.com/angularpractice/shop", "Test Failed");
+        Assert.assertEquals(logInPage.pageAfterSignIn(), "https://rahulshettyacademy.com/angularpractice/shop", "Failed to signin");
         System.out.println(logInPage.pageAfterSignIn());
 
     }
